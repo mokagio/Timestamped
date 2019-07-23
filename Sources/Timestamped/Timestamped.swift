@@ -11,11 +11,11 @@ public struct Timestamped<Value> {
     self.created = created
   }
 
-  public func createdLater(than date: Date) -> Bool {
+  public func createdAfter(_ date: Date) -> Bool {
     return created.timeIntervalSince(date) > 0
   }
 
-  public func createdBefore(than date: Date) -> Bool {
+  public func createdBefore(_ date: Date) -> Bool {
     return created.timeIntervalSince(date) < 0
   }
 }
