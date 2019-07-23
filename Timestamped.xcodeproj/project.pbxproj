@@ -60,7 +60,9 @@
 				3FBF9D9222E71F29006E4798 /* Supporting-Files */,
 				3FBF9D7B22E71EE4006E4798 /* Products */,
 			);
+			indentWidth = 2;
 			sourceTree = "<group>";
+			tabWidth = 2;
 		};
 		3FBF9D7B22E71EE4006E4798 /* Products */ = {
 			isa = PBXGroup;
