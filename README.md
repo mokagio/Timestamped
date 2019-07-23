@@ -3,7 +3,7 @@
 A generic type to decorate a given value with timestamp information.
 
 ```swift
-let resource = Timestamped<Resource>(value: getResource())
+let resource: Timestamped<Resource> = getResource()
 
 if resource.createdBefore(Date.yesterady) {
   print("Old resource. Needs refresh")
